@@ -1,0 +1,66 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package model;
+
+/**
+ *
+ * @author User
+ */
+public class ModelMahasiswa {
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNpm() {
+        return npm;
+    }
+
+    public void setNpm(String npm) {
+        this.npm = npm;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public int getSemester() {
+        return semester;
+    }
+
+    public void setSemester(int semester) {
+        this.semester = semester;
+    }
+
+    public float getIpk() {
+        return ipk;
+    }
+
+    public void setIpk(float ipk) {
+        this.ipk = ipk;
+    }
+    private int id;
+    private String npm;
+    private String nama;
+    private int semester;
+    private float ipk;
+    
+    public ModelMahasiswa(int id, String npm, String nama, int semester, float ipk) {
+        this.id = id;
+        this.npm = npm;
+        this.nama = nama;
+        this.semester = semester;
+        this.ipk = ipk;
+    }
+}
